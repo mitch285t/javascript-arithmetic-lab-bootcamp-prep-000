@@ -1,27 +1,27 @@
-a = math.floor(math.random() * 1000) 
+A = math.floor(math.random() * 1000) 
 b = math.floor(math.random() * 1000)
 
 function add(a, b){
-  return (a + b)
+  return (A + b)
   }
   
 function subtract(a, b) {
-  return (a - b)
+  return (A - b)
 }
 
 function multiply(a, b){
-  return (a * b)
+  return (A * b)
 }
 
 function divide(a, b){
-  return (a / b)
+  return (A / b)
 }
 function inc(a){
-  return (a += 1 )
+  return (A += 1 )
 }
 function dec(a){
-  return (a - 1)
+  return (A - 1)
 }
 function makeInt(a){
- return parseInt(2, 10) 
+ return parseInt(A, 10) 
 }
